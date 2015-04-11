@@ -6,14 +6,15 @@
 //  Copyright (c) 2015 Shanghai TinyNetwork Inc. All rights reserved.
 //
 
-#import <Cocoa/Cocoa.h>
-
-//! Project version number for Security.
-FOUNDATION_EXPORT double SecurityVersionNumber;
-
-//! Project version string for Security.
-FOUNDATION_EXPORT const unsigned char SecurityVersionString[];
-
-// In this header, you should import all the public headers of your framework using statements like #import <Security/PublicHeader.h>
-
+#include <Security/SecBase.h>
+#include <Security/SecCertificate.h>
+#include <Security/SecIdentity.h>
+#include <Security/SecImportExport.h>
+#include <Security/SecAccessControl.h>
+#include <Security/SecItem.h>
+#include <Security/SecKey.h>
+#include <Security/SecPolicy.h>
+#include <Security/SecRandom.h>
+#include <Security/SecSharedCredential.h>
+#include <Security/SecTrust.h>
 

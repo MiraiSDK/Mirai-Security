@@ -8,27 +8,59 @@
 
 /* Begin PBXBuildFile section */
 		43D63CB81AD9127600A46D35 /* Security.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63CB71AD9127600A46D35 /* Security.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43D63CBE1AD9127600A46D35 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43D63CB21AD9127600A46D35 /* Security.framework */; };
-		43D63CC51AD9127600A46D35 /* SecurityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63CC41AD9127600A46D35 /* SecurityTests.m */; };
+		43D63CD51AD9132F00A46D35 /* SecBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63CD31AD9132F00A46D35 /* SecBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63CD61AD9132F00A46D35 /* SecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63CD41AD9132F00A46D35 /* SecBase.m */; };
+		43D63CD91AD9134700A46D35 /* SecCertificate.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63CD71AD9134700A46D35 /* SecCertificate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63CDA1AD9134700A46D35 /* SecCertificate.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63CD81AD9134700A46D35 /* SecCertificate.m */; };
+		43D63CDD1AD9135100A46D35 /* SecIdentity.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63CDB1AD9135100A46D35 /* SecIdentity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63CDE1AD9135100A46D35 /* SecIdentity.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63CDC1AD9135100A46D35 /* SecIdentity.m */; };
+		43D63CE11AD9135B00A46D35 /* SecImportExport.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63CDF1AD9135B00A46D35 /* SecImportExport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63CE21AD9135B00A46D35 /* SecImportExport.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63CE01AD9135B00A46D35 /* SecImportExport.m */; };
+		43D63CE51AD9136400A46D35 /* SecAccessControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63CE31AD9136400A46D35 /* SecAccessControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63CE61AD9136400A46D35 /* SecAccessControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63CE41AD9136400A46D35 /* SecAccessControl.m */; };
+		43D63CE91AD9136D00A46D35 /* SecItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63CE71AD9136D00A46D35 /* SecItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63CEA1AD9136D00A46D35 /* SecItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63CE81AD9136D00A46D35 /* SecItem.m */; };
+		43D63CED1AD9137800A46D35 /* SecKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63CEB1AD9137800A46D35 /* SecKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63CEE1AD9137800A46D35 /* SecKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63CEC1AD9137800A46D35 /* SecKey.m */; };
+		43D63CF11AD9138200A46D35 /* SecPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63CEF1AD9138200A46D35 /* SecPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63CF21AD9138200A46D35 /* SecPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63CF01AD9138200A46D35 /* SecPolicy.m */; };
+		43D63CF51AD9138B00A46D35 /* SecRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63CF31AD9138A00A46D35 /* SecRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63CF61AD9138B00A46D35 /* SecRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63CF41AD9138B00A46D35 /* SecRandom.m */; };
+		43D63CF91AD9139400A46D35 /* SecSharedCredential.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63CF71AD9139400A46D35 /* SecSharedCredential.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63CFA1AD9139400A46D35 /* SecSharedCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63CF81AD9139400A46D35 /* SecSharedCredential.m */; };
+		43D63CFD1AD9139D00A46D35 /* SecTrust.h in Headers */ = {isa = PBXBuildFile; fileRef = 43D63CFB1AD9139D00A46D35 /* SecTrust.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43D63CFE1AD9139D00A46D35 /* SecTrust.m in Sources */ = {isa = PBXBuildFile; fileRef = 43D63CFC1AD9139D00A46D35 /* SecTrust.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		43D63CBF1AD9127600A46D35 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 43D63CA91AD9127600A46D35 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 43D63CB11AD9127600A46D35;
-			remoteInfo = Security;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		43D63CB21AD9127600A46D35 /* Security.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Security.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43D63CB61AD9127600A46D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43D63CB71AD9127600A46D35 /* Security.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Security.h; sourceTree = "<group>"; };
-		43D63CBD1AD9127600A46D35 /* SecurityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecurityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		43D63CC31AD9127600A46D35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43D63CC41AD9127600A46D35 /* SecurityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecurityTests.m; sourceTree = "<group>"; };
+		43D63CCF1AD912A600A46D35 /* Android-arm.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Android-arm.xcconfig"; sourceTree = "<group>"; };
+		43D63CD01AD912A600A46D35 /* Android-x86.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Android-x86.xcconfig"; sourceTree = "<group>"; };
+		43D63CD11AD912A600A46D35 /* Android.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Android.xcconfig; sourceTree = "<group>"; };
+		43D63CD31AD9132F00A46D35 /* SecBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecBase.h; sourceTree = "<group>"; };
+		43D63CD41AD9132F00A46D35 /* SecBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecBase.m; sourceTree = "<group>"; };
+		43D63CD71AD9134700A46D35 /* SecCertificate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecCertificate.h; sourceTree = "<group>"; };
+		43D63CD81AD9134700A46D35 /* SecCertificate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecCertificate.m; sourceTree = "<group>"; };
+		43D63CDB1AD9135100A46D35 /* SecIdentity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecIdentity.h; sourceTree = "<group>"; };
+		43D63CDC1AD9135100A46D35 /* SecIdentity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecIdentity.m; sourceTree = "<group>"; };
+		43D63CDF1AD9135B00A46D35 /* SecImportExport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecImportExport.h; sourceTree = "<group>"; };
+		43D63CE01AD9135B00A46D35 /* SecImportExport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecImportExport.m; sourceTree = "<group>"; };
+		43D63CE31AD9136400A46D35 /* SecAccessControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecAccessControl.h; sourceTree = "<group>"; };
+		43D63CE41AD9136400A46D35 /* SecAccessControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecAccessControl.m; sourceTree = "<group>"; };
+		43D63CE71AD9136D00A46D35 /* SecItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecItem.h; sourceTree = "<group>"; };
+		43D63CE81AD9136D00A46D35 /* SecItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecItem.m; sourceTree = "<group>"; };
+		43D63CEB1AD9137800A46D35 /* SecKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecKey.h; sourceTree = "<group>"; };
+		43D63CEC1AD9137800A46D35 /* SecKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecKey.m; sourceTree = "<group>"; };
+		43D63CEF1AD9138200A46D35 /* SecPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecPolicy.h; sourceTree = "<group>"; };
+		43D63CF01AD9138200A46D35 /* SecPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecPolicy.m; sourceTree = "<group>"; };
+		43D63CF31AD9138A00A46D35 /* SecRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecRandom.h; sourceTree = "<group>"; };
+		43D63CF41AD9138B00A46D35 /* SecRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecRandom.m; sourceTree = "<group>"; };
+		43D63CF71AD9139400A46D35 /* SecSharedCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecSharedCredential.h; sourceTree = "<group>"; };
+		43D63CF81AD9139400A46D35 /* SecSharedCredential.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecSharedCredential.m; sourceTree = "<group>"; };
+		43D63CFB1AD9139D00A46D35 /* SecTrust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecTrust.h; sourceTree = "<group>"; };
+		43D63CFC1AD9139D00A46D35 /* SecTrust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecTrust.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,22 +71,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43D63CBA1AD9127600A46D35 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43D63CBE1AD9127600A46D35 /* Security.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		43D63CA81AD9127600A46D35 = {
 			isa = PBXGroup;
 			children = (
+				43D63CCE1AD912A600A46D35 /* xcconfig */,
 				43D63CB41AD9127600A46D35 /* Security */,
-				43D63CC11AD9127600A46D35 /* SecurityTests */,
 				43D63CB31AD9127600A46D35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -63,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				43D63CB21AD9127600A46D35 /* Security.framework */,
-				43D63CBD1AD9127600A46D35 /* SecurityTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -72,6 +95,28 @@
 			isa = PBXGroup;
 			children = (
 				43D63CB71AD9127600A46D35 /* Security.h */,
+				43D63CD31AD9132F00A46D35 /* SecBase.h */,
+				43D63CD41AD9132F00A46D35 /* SecBase.m */,
+				43D63CD71AD9134700A46D35 /* SecCertificate.h */,
+				43D63CD81AD9134700A46D35 /* SecCertificate.m */,
+				43D63CDB1AD9135100A46D35 /* SecIdentity.h */,
+				43D63CDC1AD9135100A46D35 /* SecIdentity.m */,
+				43D63CDF1AD9135B00A46D35 /* SecImportExport.h */,
+				43D63CE01AD9135B00A46D35 /* SecImportExport.m */,
+				43D63CE31AD9136400A46D35 /* SecAccessControl.h */,
+				43D63CE41AD9136400A46D35 /* SecAccessControl.m */,
+				43D63CE71AD9136D00A46D35 /* SecItem.h */,
+				43D63CE81AD9136D00A46D35 /* SecItem.m */,
+				43D63CEB1AD9137800A46D35 /* SecKey.h */,
+				43D63CEC1AD9137800A46D35 /* SecKey.m */,
+				43D63CEF1AD9138200A46D35 /* SecPolicy.h */,
+				43D63CF01AD9138200A46D35 /* SecPolicy.m */,
+				43D63CF31AD9138A00A46D35 /* SecRandom.h */,
+				43D63CF41AD9138B00A46D35 /* SecRandom.m */,
+				43D63CF71AD9139400A46D35 /* SecSharedCredential.h */,
+				43D63CF81AD9139400A46D35 /* SecSharedCredential.m */,
+				43D63CFB1AD9139D00A46D35 /* SecTrust.h */,
+				43D63CFC1AD9139D00A46D35 /* SecTrust.m */,
 				43D63CB51AD9127600A46D35 /* Supporting Files */,
 			);
 			path = Security;
@@ -85,21 +130,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		43D63CC11AD9127600A46D35 /* SecurityTests */ = {
+		43D63CCE1AD912A600A46D35 /* xcconfig */ = {
 			isa = PBXGroup;
 			children = (
-				43D63CC41AD9127600A46D35 /* SecurityTests.m */,
-				43D63CC21AD9127600A46D35 /* Supporting Files */,
+				43D63CCF1AD912A600A46D35 /* Android-arm.xcconfig */,
+				43D63CD01AD912A600A46D35 /* Android-x86.xcconfig */,
+				43D63CD11AD912A600A46D35 /* Android.xcconfig */,
 			);
-			path = SecurityTests;
-			sourceTree = "<group>";
-		};
-		43D63CC21AD9127600A46D35 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				43D63CC31AD9127600A46D35 /* Info.plist */,
-			);
-			name = "Supporting Files";
+			path = xcconfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,7 +147,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43D63CE91AD9136D00A46D35 /* SecItem.h in Headers */,
+				43D63CDD1AD9135100A46D35 /* SecIdentity.h in Headers */,
+				43D63CED1AD9137800A46D35 /* SecKey.h in Headers */,
+				43D63CF51AD9138B00A46D35 /* SecRandom.h in Headers */,
 				43D63CB81AD9127600A46D35 /* Security.h in Headers */,
+				43D63CD91AD9134700A46D35 /* SecCertificate.h in Headers */,
+				43D63CD51AD9132F00A46D35 /* SecBase.h in Headers */,
+				43D63CE51AD9136400A46D35 /* SecAccessControl.h in Headers */,
+				43D63CF91AD9139400A46D35 /* SecSharedCredential.h in Headers */,
+				43D63CFD1AD9139D00A46D35 /* SecTrust.h in Headers */,
+				43D63CF11AD9138200A46D35 /* SecPolicy.h in Headers */,
+				43D63CE11AD9135B00A46D35 /* SecImportExport.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +173,7 @@
 				43D63CAE1AD9127600A46D35 /* Frameworks */,
 				43D63CAF1AD9127600A46D35 /* Headers */,
 				43D63CB01AD9127600A46D35 /* Resources */,
+				43D63CD21AD912DB00A46D35 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -133,24 +183,6 @@
 			productName = Security;
 			productReference = 43D63CB21AD9127600A46D35 /* Security.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		43D63CBC1AD9127600A46D35 /* SecurityTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 43D63CCB1AD9127600A46D35 /* Build configuration list for PBXNativeTarget "SecurityTests" */;
-			buildPhases = (
-				43D63CB91AD9127600A46D35 /* Sources */,
-				43D63CBA1AD9127600A46D35 /* Frameworks */,
-				43D63CBB1AD9127600A46D35 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				43D63CC01AD9127600A46D35 /* PBXTargetDependency */,
-			);
-			name = SecurityTests;
-			productName = SecurityTests;
-			productReference = 43D63CBD1AD9127600A46D35 /* SecurityTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -162,9 +194,6 @@
 				ORGANIZATIONNAME = "Shanghai TinyNetwork Inc.";
 				TargetAttributes = {
 					43D63CB11AD9127600A46D35 = {
-						CreatedOnToolsVersion = 6.1.1;
-					};
-					43D63CBC1AD9127600A46D35 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
@@ -182,7 +211,6 @@
 			projectRoot = "";
 			targets = (
 				43D63CB11AD9127600A46D35 /* Security */,
-				43D63CBC1AD9127600A46D35 /* SecurityTests */,
 			);
 		};
 /* End PBXProject section */
@@ -195,40 +223,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43D63CBB1AD9127600A46D35 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43D63CD21AD912DB00A46D35 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "pushd \"$SDK_LIB_PATH\"\nln -sf \"$LD_DYLIB_INSTALL_NAME\" \"lib$PRODUCT_NAME.so\"\npopd\n\npushd \"$SDK_ROOT/usr/include\"\nln -sf \"$INSTALL_PATH/$PUBLIC_HEADERS_FOLDER_PATH\" \"$PRODUCT_NAME\"\npopd\n";
 		};
-/* End PBXResourcesBuildPhase section */
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		43D63CAD1AD9127600A46D35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43D63CB91AD9127600A46D35 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43D63CC51AD9127600A46D35 /* SecurityTests.m in Sources */,
+				43D63CE21AD9135B00A46D35 /* SecImportExport.m in Sources */,
+				43D63CFA1AD9139400A46D35 /* SecSharedCredential.m in Sources */,
+				43D63CF61AD9138B00A46D35 /* SecRandom.m in Sources */,
+				43D63CF21AD9138200A46D35 /* SecPolicy.m in Sources */,
+				43D63CD61AD9132F00A46D35 /* SecBase.m in Sources */,
+				43D63CEA1AD9136D00A46D35 /* SecItem.m in Sources */,
+				43D63CEE1AD9137800A46D35 /* SecKey.m in Sources */,
+				43D63CFE1AD9139D00A46D35 /* SecTrust.m in Sources */,
+				43D63CE61AD9136400A46D35 /* SecAccessControl.m in Sources */,
+				43D63CDA1AD9134700A46D35 /* SecCertificate.m in Sources */,
+				43D63CDE1AD9135100A46D35 /* SecIdentity.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		43D63CC01AD9127600A46D35 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 43D63CB11AD9127600A46D35 /* Security */;
-			targetProxy = 43D63CBF1AD9127600A46D35 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		43D63CC61AD9127600A46D35 /* Debug */ = {
@@ -268,7 +300,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx0.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -305,7 +337,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = macosx0.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -313,66 +345,30 @@
 		};
 		43D63CC91AD9127600A46D35 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D63CD11AD912A600A46D35 /* Android.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Security/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		43D63CCA1AD9127600A46D35 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43D63CD11AD912A600A46D35 /* Android.xcconfig */;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = Security/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		43D63CCC1AD9127600A46D35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SecurityTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		43D63CCD1AD9127600A46D35 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SecurityTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -394,14 +390,6 @@
 			buildConfigurations = (
 				43D63CC91AD9127600A46D35 /* Debug */,
 				43D63CCA1AD9127600A46D35 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		43D63CCB1AD9127600A46D35 /* Build configuration list for PBXNativeTarget "SecurityTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				43D63CCC1AD9127600A46D35 /* Debug */,
-				43D63CCD1AD9127600A46D35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
